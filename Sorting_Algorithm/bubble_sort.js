@@ -2,6 +2,8 @@
 
 // algorithm that sorts an array from the lowest value to the highest value 
 
+// Bubble sort can be effectively used for small datasets, nearly sorted data, or educational purposes.
+// ex:- [1, 3, 2, 5, 4];
 // time complexity :- O(n*n)
 
 let arr = [3, 11, 34, 333, 56, 23, 1, 33, 78, 0];
