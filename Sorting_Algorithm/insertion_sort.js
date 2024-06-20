@@ -9,6 +9,7 @@
 // 2. Move that value into the correct place in the sorted part of the array.
 // 3. Go through the unsorted part of the array again as many times as there are values.
 
+// time compe
 
 function insertionSort(arr) {
     let n = arr.length;  // Get the length of the array

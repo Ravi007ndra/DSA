@@ -8,6 +8,7 @@
 // 2. Move the lowest value to the front of the unsorted part of the array.
 // 3. Go through the array again as many times as there are values in the array.
 
+
 function selectionSort(arr) {
     let n = arr.length;  // Get the length of the array
     
@@ -16,7 +17,7 @@ function selectionSort(arr) {
         
         for (let j = i + 1; j < n; j++) {  // Inner loop from i+1 to n-1
             if (arr[j] < arr[minIndex]) {  // Find the actual minimum element
-                minIndex = j;  // Update minIndex
+                minIndex = j;  // Update minIndex 
             }
         }
         
